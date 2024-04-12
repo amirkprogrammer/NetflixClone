@@ -13,6 +13,7 @@
 		997EEA872BC728790027E410 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 997EEA862BC728790027E410 /* Preview Assets.xcassets */; };
 		99DE54B52BC729FF007B6A57 /* NetflixHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE54B42BC729FF007B6A57 /* NetflixHomeView.swift */; };
 		99DE54B72BC73365007B6A57 /* NetflixFilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE54B62BC73365007B6A57 /* NetflixFilterCell.swift */; };
+		99DE54B92BC735C9007B6A57 /* NetflixFilterBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE54B82BC735C9007B6A57 /* NetflixFilterBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		997EEA862BC728790027E410 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		99DE54B42BC729FF007B6A57 /* NetflixHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixHomeView.swift; sourceTree = "<group>"; };
 		99DE54B62BC73365007B6A57 /* NetflixFilterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixFilterCell.swift; sourceTree = "<group>"; };
+		99DE54B82BC735C9007B6A57 /* NetflixFilterBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixFilterBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				99DE54B62BC73365007B6A57 /* NetflixFilterCell.swift */,
+				99DE54B82BC735C9007B6A57 /* NetflixFilterBarView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99DE54B92BC735C9007B6A57 /* NetflixFilterBarView.swift in Sources */,
 				997EEA822BC728780027E410 /* ContentView.swift in Sources */,
 				997EEA802BC728780027E410 /* NetflixCloneApp.swift in Sources */,
 				99DE54B72BC73365007B6A57 /* NetflixFilterCell.swift in Sources */,
